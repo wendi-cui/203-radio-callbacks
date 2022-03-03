@@ -7,11 +7,11 @@ import plotly.graph_objs as go
 
 ########### Define your variables ######
 
-myheading1='How to use callbacks'
+myheading1='How to count'
 tabtitle = 'xkcd'
-list_of_options=['box plot', 'correlation', 'git commit', 'scatterplot']
-list_of_images=['outlier.png', 'correlation.png', 'gitcommit.jpg', 'scatterplot.png', 'good_code.png']
-sourceurl = 'https://xkcd.com/'
+list_of_options=['one', 'two', 'three']
+list_of_images=['uno', 'dos', 'tres', 'contar']
+sourceurl = 'https://how to count.com/'
 githublink = 'https://github.com/plotly-dash-apps/203-radio-callbacks'
 
 
@@ -33,7 +33,6 @@ app.layout = html.Div(children=[
                 {'label':list_of_options[0], 'value':list_of_images[0]},
                 {'label':list_of_options[1], 'value':list_of_images[1]},
                 {'label':list_of_options[2], 'value':list_of_images[2]},
-                {'label':list_of_options[3], 'value':list_of_images[3]},
                 ],
         value=list_of_images[4],
         ),
